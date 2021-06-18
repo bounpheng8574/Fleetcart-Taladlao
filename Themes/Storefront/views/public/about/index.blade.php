@@ -1,6 +1,7 @@
 @extends('public.layout')
 
-<!-- @section('title', trans('storefront::compare.compare')) -->
+<!--Create about page 
+    @section('title', trans('storefront::compare.compare')) -->
 
 @section('content')
 <div id="myCarousel" class="carousel slide">

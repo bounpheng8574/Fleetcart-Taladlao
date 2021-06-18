@@ -12,4 +12,6 @@
     >
         <img src="{{ $sliderBanners['banner_2']->image->path }}" alt="banner">
     </a>
-</div> -->
+</div> 
+hide slide
+-->

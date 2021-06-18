@@ -4,8 +4,8 @@
             <div class="footer-top">
                 <div class="row">
                     <!-- logo here -->
-
-                        <div class="col-lg-3 col-md-5">
+                    <!-- Edit footer -->
+                        <!-- <div class="col-lg-3 col-md-5">
                             <div class="footer-links">
                                 <h4 class="title">ກ່ຽວກັບ</h4>
                                 <ul class="list-inline">
@@ -43,7 +43,7 @@
                                 <li><a href="#" target="">Sitemap</a> </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
 
                     <div class="col-lg-3 col-md-5">
                         <div class="footer-links">
@@ -142,8 +142,8 @@
                 </div>
             </div>
 
-
-                   <!--  @if ($footerMenuOne->isNotEmpty())
+                    <!-- comment here -->
+                    @if ($footerMenuOne->isNotEmpty())
                         <div class="col-lg-3 col-md-5">
                             <div class="footer-links">
                                 <h4 class="title">{{ setting('storefront_footer_menu_one_title') }}</h4>
@@ -197,7 +197,8 @@
                         </div>
                     @endif
                 </div>
-            </div> -->
+            </div>
+            <!-- end comment -->
 
             <div class="footer-bottom">
                 <div class="row align-items-center">

@@ -7,13 +7,15 @@
 
         <title>
             @yield('title') - Taladlao Manager
+            <!-- change title -->
         </title>
 
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto:400,500" rel="stylesheet">
+        <!-- add custom font -->
         <link rel="stylesheet" href="{{ v(Theme::url('public/css/custom.css')) }}">
-
+        
         @foreach ($assets->allCss() as $css)
             <link media="all" type="text/css" rel="stylesheet" href="{{ v($css) }}">
         @endforeach

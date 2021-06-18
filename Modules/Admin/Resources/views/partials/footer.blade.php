@@ -26,6 +26,6 @@
     <a href="#" data-toggle="modal" data-target="#keyboard-shortcuts-modal">
         <i class="fa fa-keyboard-o"></i>
     </a>&nbsp;
-    <!-- edit Taladlao -->
+    <!-- edit Copyright name -->
     <span>Copyright &copy; {{ date('Y')}} Taladlao</span>
 </footer>

@@ -1,3 +1,4 @@
+<!-- background top nav -->
 <section class="top-nav-wrap" style="background-color: #ed1c24; font-size: 12px;">
     <div class="container">
         <div class="top-nav">

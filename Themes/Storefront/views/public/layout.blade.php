@@ -16,7 +16,7 @@
         @stack('meta')
 
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap" rel="stylesheet">
-        
+        <!-- Add custom css -->
         <link rel="stylesheet" href="{{ v(Theme::url('public/css/custom.css')) }}">
 
         @if (is_rtl())
@@ -114,6 +114,7 @@
         <script src="{{ v(Theme::url('public/js/app.js')) }}"></script>
 
         @stack('scripts')
+        <!-- add custom js -->
         <script src="{{ v(Theme::url('public/js/custom.js')) }}"></script>
         {!! setting('custom_footer_assets') !!}
     </body>
